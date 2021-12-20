@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1228" height="245" viewBox="0 0 1228 245">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.265" y1="0.14" x2="0.053" y2="1.126" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#005c00"/>
+      <stop offset="1" stop-color="#7494ea"/>
+    </linearGradient>
+  </defs>
+  <path id="game-navline" d="M-293,245V70h70V245Zm0-175A70,70,0,0,1-223,0H935V70Z" transform="translate(293)" fill="url(#linear-gradient)"/>
+</svg>

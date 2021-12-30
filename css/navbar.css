@@ -12,7 +12,7 @@
   top: 0px !important;
 }
 .logo img {
-  width: 162px;
+  width: 9vw;
 }
 
 .navbar {
@@ -142,6 +142,7 @@
   padding: 0;
   transition: all 0.25s ease-in;
   align-items: center;
+  margin-top: -1.9vw;
 }
 
 .sub-nav {
@@ -223,7 +224,7 @@ background: linear-gradient(60deg, rgba(98,135,233,1) 28%, rgba(185,245,216,1) 7
     
   }
   .logo img {
-    width: 140px;
+    /* width: 140px; */
   }
   .nav-menu .menu-item a {
     font-size: 13px;
@@ -306,7 +307,7 @@ background: linear-gradient(343deg, rgba(0,70,255,1) 0%, rgba(185,245,216,1) 95%
    
   }
   .logo img {
-    width: 120px;
+    width: 80px;
   }
   .navbar {
     padding: 8px 15px;

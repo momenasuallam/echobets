@@ -230,10 +230,19 @@ background: linear-gradient(60deg, rgba(98,135,233,1) 28%, rgba(185,245,216,1) 7
     font-size: 13px;
   }
 }
-@media screen and (max-width: 900px) {
+.mbllist{
+  display: none;
+}
+@media screen and (max-width: 800px) {
   .navbar{
 /* background: rgb(0,70,255);
 background: linear-gradient(343deg, rgba(0,70,255,1) 0%, rgba(185,245,216,1) 95%, rgba(217,255,245,1) 100%);   */
+}
+.mbllist {
+  display: block;
+}
+.menuimg img{
+  width: 90px !important;
 }
   .navline1{
     display: none;
@@ -242,6 +251,7 @@ background: linear-gradient(343deg, rgba(0,70,255,1) 0%, rgba(185,245,216,1) 95%
     display: inline-block;
     position: absolute;
     right: 40px;
+    top: 15px;
   }
   .sidebtn {
     position: absolute;
@@ -324,4 +334,13 @@ background: linear-gradient(343deg, rgba(0,70,255,1) 0%, rgba(185,245,216,1) 95%
   .sidebtn a {
     margin-right: 4px;
   }
+}
+
+@media(min-width:1600px){
+  .logo img {
+    width: 118px;
+}
+.nav-menu {
+    margin-top: 0vw;
+}
 }

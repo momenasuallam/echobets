@@ -206,12 +206,12 @@ color: #fff;
 .headtxtdiv {
     width: 100%;
     border-radius: 0px;
-        height: 38vw;
+        height: 260px;
 }
 .headtxtdiv h2 {
     max-width: 81.5vw;
-    font-size: 5vw;
-    top: 40%;
+    font-size: 4.5vw;
+    top: 45%;
 }
 }
 @media(max-width:600px)
@@ -224,7 +224,18 @@ color: #fff;
 
 /* Home page section 1 */
 .expertsection{
-padding: 5rem 0 2rem;
+padding: 3rem 0 2rem;
+}
+.expertsectionexpert{
+  padding: 22rem 0 2rem !important;
+}
+@media(max-width: 1070px){
+  .expertsection{
+        padding: 4rem 0 2rem;
+  }
+  .expertsectionexpert{
+  padding: 20rem 0 2rem !important;
+}
 }
 .h2tag{
 font-family: futurabold;
@@ -323,7 +334,7 @@ margin-bottom: 15px;
 }
 .expertfollowdiv h4{
 margin-bottom: 0px;
-font-size: 2vw;
+font-size: 1.7vw;
 }
 .expertfollowdiv h6{
 color: #959595;
@@ -456,6 +467,7 @@ font-family: futuraexbold;
 .experdivsmain {
   margin: 1.5rem 0 3rem;
 }
+
 @media(min-width:1500px){
   .h2tag{
     font-size: 40px;
@@ -491,6 +503,36 @@ font-family: futuraexbold;
 .h2tag{
   font-size: 30px;
   line-height: 30px;
+}
+.expertdiv {
+    height: 10vw;
+}
+.expd1 {
+    width: 11vw;
+}
+.userimg0 {
+    height: 9.2vw;
+}
+.expd2 {
+    width: 25vw;
+    left: 11vw;
+}
+.expertdiv h4 {
+    font-size: 2.5vw;
+}
+.expertdiv p {
+    font-size: 1.9vw;
+}
+.expd3 {
+    width: 14vw;
+    position: absolute;
+    right: 3px;
+}
+.expd3 span {
+    height: 7.5vw;
+}
+.expertdiv small {
+    font-size: 1.4vw;
 }
 .expertfollowdiv h4{
 font-size: 22px;
@@ -583,17 +625,17 @@ font-size: 22px;
     margin-bottom: 0;
 }
 .expd3 {
-    width: 13vw;
+    width: 19vw;
     position: absolute;
     right: 0px;
 }
 .eagleimg {
     height: 9.4vw;
-    margin-top: -1.3vw;
+    margin-top: -1.7vw;
 }
 .expertdiv small {
-    font-size: 1vw;
-    margin-top: -0.7vw;
+font-size: 1.8vw;
+    margin-top: -2.3vw;
 }
 .expd3 span {
     height: 9vw;
@@ -602,7 +644,10 @@ font-size: 22px;
     font-size: 20px;
 }
 .expertsection {
-    padding: 0.5rem 0 1rem;
+    padding: 2rem 0 1rem;
+}
+.expertsectionexpert{
+  padding: 18rem 0 1rem !important;
 }
 .h2tag {
     margin-bottom: 10px;
@@ -744,6 +789,7 @@ text-decoration: none;
     padding: 1.75rem 0 !important;
 }
 }
+
 @media (max-width: 600px)
 {
   .modal-body{
@@ -752,6 +798,7 @@ text-decoration: none;
 .modal-header{
   padding: 1.8rem 2rem;
 }
+
 }
 
 
@@ -776,9 +823,10 @@ font-weight: 600;
 }
 .folowd2 h6{
   color: #959595;
-  font-weight: 300;
-  font-size: 12px;
+  font-weight: 600;
+  font-size: 13px;
   margin-bottom: 2px;
+   margin-top: 2px;
 
 }
 .userimg2{
@@ -925,7 +973,7 @@ border-radius: 0px !important;
 @media(min-width:1000px)
 {
   .bettingcaed .modal-body{
-    height: 100vh;
+    height: auto;
   }
 }
 .paddingbetcard{
@@ -1079,17 +1127,23 @@ background: linear-gradient(
 257deg, #d2fff5 0%, #4ad0d8 22%, #0047e8 100%) 0% 0% no-repeat padding-box;
     border-radius: 0px 0px 0px 70px;
     height: 230px;
-    width: 94vw;
+   width: 89%;
+    position: absolute;
+    right: 0;
+    left: unset;
     opacity: 1;
-    position: relative;
     top: 110px;
-    z-index: 9;
-    left: 6vw;
+    z-index: 2;
     padding: 20px 6rem;
     display:flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 5rem;
+}
+@media(max-width:1780px){
+  .pagehead2{
+    width: 91%;
+  }
 }
 .ph2d1{
 
@@ -1239,14 +1293,28 @@ border: 0px solid !important;
 }
 .pagehead2 {
     height: 190px;
-    width: 96vw;
-    top: 8vw;
-    left: 4vw;
+  width: 93vw ;
+    top: 10vw;
+    left: unset;
     padding: 20px 6rem;
+    position: absolute;
+    right: 0px;
+}
+.expertfeedsec {
+    margin: 24rem 0 3rem !important;
+}
+}
+@media(max-width:1100px){
+  .pagehead2 {
+ width: 97vw ;
 }
 }
 @media(max-width:768px)
 {
+  .pageheadmian .container{
+    max-width: 100% !important;
+    padding: 0px !important;
+  }
   .newsfeedrow .col-md-2 {
     width: 100% !important;
     margin-bottom: 15px;
@@ -1256,7 +1324,7 @@ border: 0px solid !important;
   display: none;
 }
 .pagehead2 {
-height: 100%;
+height: 260px;
     width: 100%;
     top: 0;
     left: 0;
@@ -1287,7 +1355,7 @@ height: 100%;
   margin: 0px 0;
 }
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
-  padding: 0 25px !important;
+  padding: 0 30px !important;
 }
 .pagehead2 h2 {
     font-size: 32px;
@@ -1399,7 +1467,7 @@ border-radius: 0px 5px 5px 0px;
 font-size: 12px;
 }
 .expertfeedsec{
-margin: 10rem 0 3rem;
+margin: 29rem 0 3rem;
 }
 .videoimg2{
 width: 100%;
@@ -1612,15 +1680,27 @@ border-radius: 10px;
 .navtavsman{
  
 }
+  .expertfeedsec {
+    margin: 23rem 0 3rem !important;
+}
 }
 @media(max-width:768px)
 {
+  .logo {
+    position: absolute;
+    left: 45px;
+    top: 14px;
+}
+.logo img {
+    width: 11vw;
+}
   .expertfeedsec {
-    margin: 3rem 0 3rem;
+    margin: 44rem 0 3rem !important;
 }
 .videodivmatch{
   margin-bottom: 2rem;
 }
+
 }
 .followmemodal{
   cursor: pointer;
@@ -1701,7 +1781,7 @@ margin: 3rem 0;
 display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     flex-wrap: wrap;
 }
 .sideplys .fa{
@@ -1773,6 +1853,361 @@ border-radius: 5px;
 .maingamediv .container{
 padding-left: 0px !important;
 }
+
+
+
+/* From here you can start to copy */
+:focus-visible {
+    outline: #000 auto 0px !important;
+}
+.calendar {
+  padding:8px;
+  background: #ffffff;
+  border-radius: 4px;
+  font-size:16px;
+  border: 1px solid #333333;
+  box-shadow: 0px 20px 40px rgba(59,60,56,0.05);
+}
+.ui-datepicker {
+  background: #ffffff;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+.ui-datepicker-header {
+  height: 45px;
+  line-height: 45px;
+  color: #ffffff;
+  background: #31639c;
+  margin-bottom: 10px;
+}
+.ui-datepicker-prev,
+.ui-datepicker-next {
+  width: 20px;
+  height: 20px;
+  text-indent: 9999px;
+  border-radius: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  margin-top: 16px;
+}
+.ui-datepicker-prev {
+  float: left;
+  margin-left: 12px;
+}
+.ui-datepicker-prev:after {
+  transform: rotate(45deg);
+  margin: -43px 0px 0px 8px;
+}
+.ui-datepicker-next {
+  float: right;
+  margin-right: 12px;
+}
+.ui-datepicker-next:after {
+  transform: rotate(-135deg);
+  margin: -43px 0px 0px 6px;
+}
+.ui-datepicker-prev:after,
+.ui-datepicker-next:after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-left: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+.ui-datepicker-prev:hover,
+.ui-datepicker-next:hover,
+.ui-datepicker-prev:hover:after,
+.ui-datepicker-next:hover:after {
+  border-color: #333333;
+}
+.ui-datepicker-title {
+  text-align: center;
+  font-size:16px;
+}
+.ui-datepicker-calendar {
+  width: 100%;
+  text-align: center;
+}
+.ui-datepicker-calendar thead tr th span {
+  display: block;
+  width: 34px;
+  color: #31639c;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.ui-state-default {
+  display: block;
+  text-decoration: none;
+  color: #333333;
+  line-height: 34px;
+  font-size: 14px;
+}
+.ui-state-default:hover {
+  color: #ffffff;
+  background:#31639c;
+  border-radius:50px;
+  transition: all 0.25s cubic-bezier(0.7, -0.12, 0.2, 1.12);
+}
+.ui-state-highlight {
+  color: #ffffff;
+  background-color:#31639c;
+  border-radius:50px;
+}
+
+.ui-state-active {
+  color: #ffffff;
+  background-color:#31639c;
+  border-radius:50px;
+}
+.ui-datepicker-unselectable .ui-state-default {
+  color: #eee;
+  border: 2px solid transparent;
+}
+
+.datepickdiv .icon {
+    margin-left: -30px;
+    margin-top: -26px;
+    position: relative;
+    color: #31639c;
+    font-size:20px;
+}
+
+.datepickdiv{
+padding: 2rem 2.5rem;
+}
+.datepickdiv h2{
+font-size: 18px;
+font-weight: 600;
+margin-bottom: 10px;
+}
+.datepickdiv input{
+border: 1px solid #959595;
+width: 100%;
+}
+.modal-footer {
+    background: linear-gradient( 
+257deg
+, #d2fff5 0%, #4ad0d8 22%, #0047e8 100%) 0% 0% no-repeat padding-box;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    padding: 1.2rem 3rem;
+}
+.modlfooterflex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.modlfooterflex h5{
+    color: #fff;
+    font-family: futurabold;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+.modlfooterflex p{
+ color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.phase1cards{
+  margin-bottom: 20px;
+}
+.phase1betcard{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+width: 100%;
+margin-bottom: 5px;
+}
+.phase1betcard h2{
+font-weight: 400;
+font-size: 14px;
+}
+.phase1betcard h2 span{
+font-weight: 600;
+font-size: 15px;
+}
+.phase1betcard a{
+
+}
+.followbtn{
+ background: green;
+box-shadow: 0px 0px 5px #00000029;
+border-radius: 3px;
+opacity: 1;
+color: #FFFFFF;
+font-size: 15px;
+font-family: futurabold;
+padding: 4px 25px;
+border: 0px solid !important;
+}
+.followbtn:hover{
+  color: #fff !important;
+}
+
+.profitdiv{
+
+}
+.profitdiv h2{
+  font-family: futurabold;
+  font-size: 30px;
+  margin-bottom: 18px;
+}
+.profitsinglediv{
+background-color: #95959554;
+border: 1px solid #95959547;
+border-radius: 8px;
+padding: 1rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-bottom: 10px;
+}
+.profitsinglediv h3{
+font-size: 14px;
+margin-bottom: 4px;
+}
+.profitsinglediv p{
+color: green;
+font-size: 14px;
+margin-bottom: 0px;
+font-weight: 600;
+}
+.chartprofit{
+  margin: 20px 0;
+  padding: 10px 0;
+}
+#profitChart{
+  width: 100%;
+  height: 300px;
+}
+.chartlegends1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 0 25px;
+}
+.selectinfo{
+ font-size: 14px;
+    padding: 6px;
+    border: 1px solid #9595958f;
+    border-radius: 4px;
+    color: #545050;
+    font-weight: 500;
+}
+.picksdash{
+margin: 20px 0;
+  position: relative;
+}
+.picksdash h4{
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 18px;
+
+}
+.piclsupdatemain{
+  max-width: 400px;
+  margin: auto;
+
+}
+.picksupdates{
+margin: 10px 0 20px;
+}
+.picksupdates h5{
+color: #545050;
+font-size: 20px;
+  margin-bottom: 0px;
+}
+.picksupdates hr{
+  margin: 4px 0;
+}
+.picksupsub {
+margin-top: 10px;
+}
+.picksupsub p{
+color: #000;
+margin-bottom: 6px;
+}
+.picksupsub span{
+color: #000;
+font-weight: 600;
+
+}
+
+.blurdivpicks{
+filter: blur(3px);
+}
+.freeexperpick{
+    background-color: blue;
+    padding: 10px;
+    width: 185px;
+    text-align: center;
+    position: absolute;
+    top: 48%;
+    left: 42%;
+    cursor: pointer;
+}
+.freeexperpick p{
+  margin-bottom: 0px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.linkcopydiv{
+  margin: 20px 0;
+}
+.copy-click {
+  position: relative;
+  padding-bottom: 2px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #484848;
+  transition: background-color calc(var(--duration) * 2) var(--ease);
+}
+.copy-click i{
+  margin-right: 2px;
+}
+.copy-click:after {
+  content: attr(data-tooltip-text);
+  font-size: 12px;
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  padding: 8px 16px;
+  white-space: nowrap;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 0 0 -12px rgba(0, 0, 0, 0);
+  pointer-events: none;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  opacity: 0;
+  transform: translate(-50%, 12px);
+  transition: box-shadow calc(var(--duration) / 1.5) var(--bounce), opacity calc(var(--duration) / 1.5) var(--bounce), transform calc(var(--duration) / 1.5) var(--bounce);
+}
+.copy-click.is-hovered:after {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  transform: translate(-50%, 0);
+  transition-timing-function: var(--ease);
+}
+.copy-click.is-copied {
+  background-color: yellow;
+}
+.copy-click.is-copied:after {
+  content: attr(data-tooltip-text-copied);
+}
+
+
+
 @media(min-width:1780px){
   .pagehead3{
     padding: 4rem 3rem !important;
@@ -1884,6 +2319,7 @@ margin: 8px 0;
 
 }
 @media(max-width:768px){
+
   .pagehead4 {
     height: 100%;
     margin-bottom: 3rem;
@@ -1905,16 +2341,54 @@ margin: 8px 0;
 .pagehead3 {
     padding: 5rem 1rem 2rem!important;
 }
+.sidebarresults p{
+  display: inline-block;
+    padding-right: 16px;
 }
-@media(max-width){
+.sortd2 .form-check {
+    display: inline-block;
+    padding-right: 15px;
+}
+.datepickdiv {
+    padding: 2rem 0rem;
+}
+}
+
+@media(max-width:1000px){
+  .gameld {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gamemaind2 {
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    flex-direction: column;
+    width: 50%;
+    align-items: start;
+}
+.gtead1 {
+    margin-bottom: 0px;
+}
+.flexexpertd2 div {
+    margin: 10px 0px;
+}
+.teasubdiv {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+}
+@media(max-width:768px){
 
 }
-@media(max-width:1000px){
-  .gamemaind2{
-    justify-content: space-around;
-  }
-}
 @media(max-width:600px){
+  .logo {
+    left: 26px;
+    top: 14px;
+}
+  .logo img {
+    width: 15vw;
+}
   .gamemaind2{
     justify-content: flex-start;
   }
@@ -1966,6 +2440,7 @@ margin: 8px 0;
 .leagflex small {
     font-size: 10px;
 }
+
 }
 @media(max-width:500px){
 .teatxtdivs{
@@ -1974,7 +2449,10 @@ margin: 8px 0;
 .teagmaelast{
 display: flex;
 }
-
+.freeexperpick {
+    top: 45%;
+    left: 20%;
+  }
 }
 .fa-twitter:before{
   font: normal normal normal 16px/1 ForkAwesome; 
@@ -1987,4 +2465,16 @@ display: flex;
 }
 .fa-linkedin:before{
   font: normal normal normal 16px/1 ForkAwesome; 
+}
+
+@media(max-width:900px){
+  .slidetea p{
+  font-size: 10px;
+}
+}
+@media(max-width:400px){
+  .piechartcan {
+    width: 175px !important;
+    height: 80px !important;
+}
 }

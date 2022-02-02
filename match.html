@@ -34,11 +34,15 @@
 
 
           <ul id="primary-menu" class="menu nav-menu">
+            <li class="menu-item current-menu-item mbllist"><a class="nav__link " href="index.html">
+                <div class="menuimg"><img src="img/echobetslogo.png" alt="LOGO"></div>
+              </a>
+            </li>
             <li class="menu-item current-menu-item"><a class="nav__link btngrad" href="games.html">Play</a></li>
             <li class="menu-item current-menu-item"><a class="nav__link" href="expert.html">Find Experts</a></li>
-            <li class="menu-item current-menu-item"><a class="nav__link registermodal" href="#">Login</a></li>
-            <li class="menu-item current-menu-item"><a class="nav__link registermodal">Register</a></li>
-            <li class="menu-item current-menu-item"><a class="nav__link bettingcardmodal" href="#"><img
+            <li class="menu-item current-menu-item"><a class="nav__link loginModal">Login</a></li>
+            <li class="menu-item current-menu-item"><a class="nav__link registermodal">Sign Up</a></li>
+            <li class="menu-item current-menu-item"><a class="nav__link bettingcardmodal"><img
                   src="./img/Icon awesome-address-card.svg" /><span class="notiicon">!</span></a></li>
 
           </ul>
@@ -1224,7 +1228,7 @@
     <div class="container">
       <div class="footer-top">
         <div>
-          <a href="index.html"><img src="./img/Footer-logo.svg" /></a>
+          <a href="index.html"><img class="footerimg" src="./img/echobetslogo.png" /></a>
         </div>
         <div>
           <p>Copyright © EchoBets 2021. All rights reserved. Designed by Sagapixel</p>
@@ -1311,6 +1315,8 @@
     </div>
   </div>
 
+
+
   <!-- Modal -->
   <div class="modal" id="followModal" tabindex="-1" aria-labelledby="followModalLabel" aria-hidden="true">
     <div class="modal-dialog modalfollow">
@@ -1348,12 +1354,16 @@
 
           <div class="followform">
             <div class="earnd">
-              <span>You Earn</span>
+              <span>Pick Value</span>
               <h6>$4.00</h6>
             </div>
-            <div class="earnout">
-              <h6>$ <span>20</span> of $100</h6>
+            <div class="earnd">
+              <span>Profit</span>
+              <h6>$200.00</h6>
             </div>
+            <!-- <div class="earnout">
+                 <h6>$ <span>20</span> of $100</h6>
+             </div> -->
             <p class="agreetxt">You agree with Echobets <span>disclaimer</span>.</p>
 
             <button class="btngray mrright">Cancel</button>
@@ -1403,7 +1413,24 @@
             </div>
           </div>
 
+
+
           <div class=" matchesdiv">
+
+            <div class="phase1cards">
+              <div class="phase1betcard">
+                <h2><span>Username</span> picked <span>TEAM 1</span> in <span>MATCH 1</span></h2>
+                <a class="followbtn">Follow</a>
+              </div>
+              <div class="phase1betcard">
+                <h2><span>Username</span> picked <span>TEAM 1</span> in <span>MATCH 1</span></h2>
+                <a class="followbtn">Follow</a>
+              </div>
+              <div class="phase1betcard">
+                <h2><span>Username</span> picked <span>TEAM 1</span> in <span>MATCH 1</span></h2>
+                <a class="followbtn">Follow</a>
+              </div>
+            </div>
             <a class="lockbtn">Lock All</a>
 
             <div class="mainmatchd">
@@ -1462,6 +1489,51 @@
 
 
         </div>
+        <div class="modal-footer">
+          <div class="modlfooterflex">
+            <div>
+              <h5>Echobucks</h5>
+            </div>
+            <div>
+              <p>280</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalLabel">Login</h5>
+
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="registerform">
+            <form>
+              <div class="row g-3">
+                <div>
+                  <input type="text" class="form-control" placeholder="Username *" required>
+                </div>
+              </div>
+              <div class="row g-3">
+                <div class="col">
+                  <input type="password" class="form-control" placeholder="Password *" required>
+                </div>
+              </div>
+
+              <button class="btn2reg mt8">
+                Login
+              </button>
+            </form>
+            <p>Can't remember your Account or Password? <a>Click here.</a></p>
+          </div>
+        </div>
 
       </div>
     </div>
@@ -1497,6 +1569,10 @@
       $(".followmemodal").click(function () {
         // show Modal
         $('#followModal').modal('show');
+      });
+      $(".loginModal").click(function () {
+        // show Modal
+        $("#loginModal").modal("show");
       });
     });
 

@@ -471,23 +471,33 @@ $(document).ready(function () {
         ci.update();
       };
 
+   
+
 
 // when DOM is ready
 $(document).ready(function () {
+  // Attach Button click event listener
+  $(".registermodal").click(function () {
+    // show Modal
+    $("#registerModal").modal("show");
+  });
 
-     // Attach Button click event listener 
-    $(".registermodal").click(function(){
-         // show Modal
-         $('#registerModal').modal('show');
-    });
+  // Attach Button click event listener
+  $(".loginModal").click(function () {
+    // show Modal
+    $("#loginModal").modal("show");
+   
+  });
 
-     $(".bettingcardmodal").click(function(){
-         // show Modal
-         $('#bettingcardid').modal('show');
-    });
+  
 
-     $(".followmemodal").click(function(){
-         // show Modal
-         $('#followModal').modal('show');
-    });
+  $(".bettingcardmodal").click(function () {
+    // show Modal
+    $("#bettingcardid").modal("show");
+  });
+
+  $(".followmemodal").click(function () {
+    // show Modal
+    $("#followModal").modal("show");
+  });
 });

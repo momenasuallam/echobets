@@ -486,10 +486,13 @@ $(document).ready(function () {
   $(".loginModal").click(function () {
     // show Modal
     $("#loginModal").modal("show");
-   
   });
 
-  
+  // Attach Button click event listener
+  $(".followmodalshow").click(function () {
+    // show Modal
+    $("#followModal").modal("show");
+  });
 
   $(".bettingcardmodal").click(function () {
     // show Modal
